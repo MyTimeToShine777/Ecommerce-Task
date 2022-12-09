@@ -5,6 +5,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PersonIcon from "@mui/icons-material/Person";
 import Badge from "@mui/material/Badge";
 import "./footer.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -25,26 +26,26 @@ const Footer = () => {
         </div>
       </div>
       <div className="small-footer">
-        <div className="left">
+        <Link to={"/shop"} className="left">
           <HomeIcon className="icon" />
           <p>Shop</p>
-        </div>
-        <div className="middle1">
+        </Link>
+        <Link to={"/singleproduct"} className="middle1">
           <Badge badgeContent={2} color="success">
             <FavoriteBorderIcon className="icon" />
           </Badge>
           <p>wishlist</p>
-        </div>
-        <div className="middle2">
+        </Link>
+        <Link to={"/cart"} className="middle2">
           <Badge badgeContent={2} color="success">
             <ShoppingCartIcon className="icon" />
           </Badge>
           <p>Cart</p>
-        </div>
-        <div className="right">
+        </Link>
+        <Link to={"/contact"} className="right">
           <PersonIcon className="icon" />
           <p>MyAccount</p>
-        </div>
+        </Link>
       </div>
     </div>
   );
