@@ -1,0 +1,46 @@
+.container {
+    .card {
+        height: 300px;
+        width: 400px;
+        img {
+            height: 300px;
+            width: 400px;
+        }
+    }
+    .data {
+        margin-top: 10px;
+        text-align: center;
+        justify-content: center;
+        h1 {
+            font-size: 18px;
+            word-wrap: break-word;
+            font-weight: bold;
+            color: rgb(57, 55, 55);
+        }
+        p {
+            font-size: 13px;
+            color: gray;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        .card {
+            height: 200px;
+            width: 100px;
+            img {
+                height: 200px;
+                width: 100px;
+            }
+        }
+        .data {
+            h1 {
+                font-size: 12px;
+            }
+            p {
+                font-size: 6px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.container {
+    .data {
+        margin-top: 10px;
+        text-align: center;
+        justify-content: center;
+        h1 {
+            font-size: 18px;
+            word-wrap: break-word;
+            font-weight: bold;
+            color: rgb(57, 55, 55);
+        }
+        p {
+            font-size: 13px;
+            color: gray;
+        }
+    }
+}

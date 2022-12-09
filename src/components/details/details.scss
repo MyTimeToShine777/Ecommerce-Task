@@ -1,0 +1,21 @@
+.details-wrapper {
+    margin: 50px;
+    .details-container {
+        text-align: center;
+        justify-content: center;
+        h5 {
+            color: #83b735;
+            padding: 10px;
+            margin: 0;
+        }
+        h1 {
+            padding: 20px;
+            margin: 0;
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            color: rgb(106, 101, 96);
+        }
+    }
+}
